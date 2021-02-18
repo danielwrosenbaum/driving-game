@@ -4,6 +4,7 @@ body {
 
 .race-car {
   width: 150px;
+  transition: transform 0.5s;
 }
 
 .up {
