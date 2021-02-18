@@ -2,9 +2,22 @@ body {
   background-color: green;
 }
 
+.container {
+  position: relative;
+  width: 900px;
+  height: 640px;
+}
+
 .race-car {
   width: 150px;
   transition: transform 0.5s;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.active {
+  left: 20px;
 }
 
 .up {
@@ -21,4 +34,8 @@ body {
 
 .right {
   transform: none;
+}
+
+.right:active {
+  left: 10px;
 }
