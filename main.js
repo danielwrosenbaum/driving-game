@@ -10,6 +10,6 @@ function changeDirection(event) {
   } else if (event.key === 'ArrowRight') {
     $raceCar.className = 'race-car right';
   }
-
 }
+
 window.addEventListener('keydown', changeDirection);
