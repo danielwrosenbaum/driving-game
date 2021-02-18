@@ -1,8 +1,7 @@
 body {
   background-color: green;
-  width: 100%;
 }
 
 .race-car {
-  width: 15%;
+  width: 150px;
 }
