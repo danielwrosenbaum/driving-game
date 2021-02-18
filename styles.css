@@ -4,4 +4,21 @@ body {
 
 .race-car {
   width: 150px;
+  transition: transform 0.5s;
+}
+
+.up {
+  transform: rotate(-90deg);
+}
+
+.down {
+  transform: rotate(90deg);
+}
+
+.left {
+  transform: rotate(180deg);
+}
+
+.right {
+  transform: none;
 }
